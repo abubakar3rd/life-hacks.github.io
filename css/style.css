@@ -1,0 +1,432 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+.headerWrap {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logoContainer {
+    height: 100%;
+    width: 200px;
+    float: left;
+}
+
+.navContainer {
+    width: 560px;
+    height: 100%;
+    float: right;
+}
+
+.navContainer ul a {
+    color: black;
+}
+
+.logoContainer img {
+    width: 200px;
+    margin-top: 25px;
+}
+
+.navContainer ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 80px;
+    padding: 0 25px;
+    font-weight: 500;
+}
+
+.navContainer ul li:hover {
+    font-weight: bold;
+}
+
+#bannerContainer {
+   width: 100%;
+   height: 500px;
+}
+
+.banner {
+    background-image: url(../images/cover-banner.png);
+    background-size: 100%;
+    width: 100%;
+    height: inherit;
+    background-repeat: no-repeat;
+}
+
+.contentOverBanner {
+    width: 600px;
+    height: 150px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.contentOverBanner img {
+    float: left;
+    width: 10px;
+}
+
+.bannerTextCaption {
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.bannerTextDetail {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.keepReadingButton {
+    padding: 10px 15px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.keepReadingButton:hover {
+    background-color: #ffffff;
+    color: black;    
+}
+
+.bannerFlapper {
+    width: 150px;
+    height: 50px;
+    float: right;
+    padding-top: 20px;
+}
+
+.bannerFlapper button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.mainBlogWrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.category {
+    width: 230px;
+    height: 550px;
+    float: left;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+.category ul li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.category ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.category ul a:hover {
+    font-weight: 700;
+}
+
+.timelineContainer {
+    width: 600px;
+    margin-left: 30px;
+    float: left;
+}
+
+.timeline {
+    width: 550px;
+    padding: 20px;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+}
+
+.timeline img {
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+}
+
+.timeline h2 p {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.postState {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+}
+
+.postDetail {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.fellowersContainer {
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+    float: left;
+}
+
+.trinityCycleContainer {
+    float: left;
+    cursor: pointer;
+}
+
+.trinityCycle {
+    height: 10px;
+    width: 10px;
+    background-color: #768791;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+.fellowersImages {
+    width: 250px;
+    height: 50px;
+}
+
+.fellowersImages .image1 {
+    width: 45px;
+    margin-left: 15px;
+    float: left;
+}
+
+.fellowersImages .image2 {
+    width: 45px;
+    margin-left: -20px;
+    float: left;
+}
+
+.fellowersImages .image3 {
+    width: 45px;
+    margin-left: -20px;
+    float: left;
+}
+
+.fellowersImages .image4 {
+    width: 45px;
+    margin-left: -20px;
+    float: left;
+}
+
+.fellowersImageAddition {
+    float: left;
+    margin-left: 10px;
+    line-height: 50px;
+    color: #768791;
+}
+
+.activityContainer {
+    width: 170px;
+    height: 50px;
+    float: right;
+    margin-top: 50px;
+}
+
+.fa-heart {
+    color: #F6396D;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.fa-heart:hover {
+    color: #db1950;
+    cursor: pointer;
+}
+
+.fa-envelope {
+    color: gray;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.fa-envelope:hover {
+    color: #706b6b;
+    cursor: pointer;
+}
+
+.numberOfActivities {
+    font-size: 22px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.popularPost {
+    width: 230px;
+    height: 1300px;
+    float: right;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+.popularPostContent {
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.popularPostContent img {
+    float: left;
+}
+
+.pupolarPostContentCaption {
+    float: left;
+    margin-left: 10px;
+    color: #768791;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.postTime {
+    color: #C3CCD3;
+    margin-left: 65px;
+}
+
+.gallery img {
+    width: 70px;
+    margin: 1.8px;
+}
+
+.nextPageOption {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.nextPageOptionButtonWrap {
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin-left: 200px;
+}
+
+.nextPageOptionButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    background-color: transparent;
+    float: left;
+    margin-left: 10px;
+} 
+
+.nextPageOptionButton a {
+    text-decoration: none;
+    color: gray;
+} 
+
+.nextPageOptionButton:hover {
+    background-color: #2DA7E2;
+}
+
+.nextPageOptionButton p {
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.nextPageOptionNextPage {
+    width: 70px;
+    height: 35px;
+    float: right;
+}
+
+.nextPageOptionNextPage p {
+    line-height: 35px;
+    font-size: 22px;
+}
+
+.nextPageOptionNextPage a {
+    color: #2DA7E2;
+    text-decoration: none;
+}
+
+.nextPageOptionNextPage a:hover {
+    color: #116c99;
+}
+
+footer {
+    width: 100%;
+    background-color: #263843;
+}
+
+.footerNav {
+    width: 640px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.footerNav ul li {
+    list-style: none;
+    float: left;
+    margin: 0 30px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 70px;
+}
+
+.footerNav ul {
+    margin: 0 auto;
+}
+
+.footerNav ul li:hover {
+    text-decoration: underline;
+}
+
+.footerSocialIcons {
+    width: 373px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.footerSocialIcons img{
+    margin: 10px 10px;
+}
+
+.copyrightSection {
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.copyrightSection p{
+    text-align: center;
+    font-size: 14px;
+    color: #C3CCD3;
+    line-height: 70px;
+}
